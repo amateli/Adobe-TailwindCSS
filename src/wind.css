@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: adobe-light;
+    src: url(../Assets/Fonts/adobefont-light.woff);
+}
+@font-face {
+    font-family: adobe-bold;
+    src: url(../Assets/Fonts/adobefont-bold.woff);
+}
+@font-face {
+    font-family: adobe-normal;
+    src: url(../Assets/Fonts/adobefont-normal.woff);
+}
+@font-face {
+    font-family: adobe-italic;
+    src: url(../Assets/Fonts/adobefont-italic.woff);
+}
+
+@layer components {
+    .nav-link {
+        @apply flex items-center px-5 text-[#2c2c2c] text-[14px] hover:bg-[#fafafa];
+    }
+    .button {
+        @apply py-[5px] px-[15px] rounded-[20px] text-[14px] border-2;
+    }
+    .item-links {
+        @apply block text-[14px] pb-4 hover:underline;
+    }
+    .footer-links {
+        @apply font-normal block text-[12px] py-0.5 hover:text-[#999999];
+    }
+}
