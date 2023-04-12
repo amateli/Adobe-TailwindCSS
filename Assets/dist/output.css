@@ -970,6 +970,14 @@ video {
   background-image: url(../Images/DC-triple-desktop-1x-v2.jpeg);
 }
 
+.bg-\[url\(\.\.\/Images\/EML-homepage-single-desktop-1_v2\.jpeg\)\] {
+  background-image: url(../Images/EML-homepage-single-desktop-1_v2.jpeg);
+}
+
+.bg-\[url\(\.\.\/Images\/EML-homepage-single-desktop-2_v2\.jpeg\)\] {
+  background-image: url(../Images/EML-homepage-single-desktop-2_v2.jpeg);
+}
+
 .bg-cover {
   background-size: cover;
 }
