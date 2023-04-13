@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/wind.css -o ./Assets/dist/output.css --watch"
+    "build": "npx tailwindcss -i ./src/wind.css -o ./Assets/dist/output.css --watch",
+    "prettier": "npx prettier --write ./Assets/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.7"
   }
 }

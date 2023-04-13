@@ -4,19 +4,19 @@
 
 @font-face {
     font-family: adobe-light;
-    src: url(../Assets/Fonts/adobefont-light.woff);
+    src: url(../Fonts/adobefont-light.woff);
 }
 @font-face {
     font-family: adobe-bold;
-    src: url(../Assets/Fonts/adobefont-bold.woff);
+    src: url(../Fonts/adobefont-bold.woff);
 }
 @font-face {
     font-family: adobe-normal;
-    src: url(../Assets/Fonts/adobefont-normal.woff);
+    src: url(../Fonts/adobefont-normal.woff);
 }
 @font-face {
     font-family: adobe-italic;
-    src: url(../Assets/Fonts/adobefont-italic.woff);
+    src: url(../Fonts/adobefont-italic.woff);
 }
 
 @layer components {
